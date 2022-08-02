@@ -1,0 +1,127 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ usertests
+usertests starting
+usertrap(): kalloc() failed
+test execout: usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+usertrap(): kalloc() failed
+OK
+test copyin: OK
+test copyout: OK
+test copyinstr1: OK
+test copyinstr2: OK
+test copyinstr3: OK
+test rwsbrk: OK
+test truncate1: OK
+test truncate2: OK
+test truncate3: OK
+test reparent2: OK
+test pgbug: OK
+test sbrkbugs: OK
+test badarg: OK
+test reparent: OK
+test twochildren: OK
+test forkfork: OK
+test forkforkfork: OK
+test argptest: OK
+test createdelete: OK
+test linkunlink: OK
+test linktest: OK
+test unlinkread: OK
+test concreate: OK
+test subdir: OK
+test fourfiles: OK
+test sharedfd: OK
+test exectest: OK
+test bigargtest: OK
+test bigwrite: OK
+test bsstest: OK
+test sbrkbasic: usertrap(): kalloc() failed
+OK
+test sbrkmuch: OK
+test kernmem: usertrap(): invalid va=0x0000000080000000 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008000c350 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800186a0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800249f0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080030d40 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008003d090 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800493e0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080055730 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080061a80 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008006ddd0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008007a120 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080086470 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800927c0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008009eb10 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800aae60 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800b71b0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800c3500 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800cf850 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800dbba0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800e7ef0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000800f4240 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080100590 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008010c8e0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080118c30 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080124f80 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000801312d0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008013d620 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080149970 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080155cc0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080162010 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008016e360 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008017a6b0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080186a00 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x0000000080192d50 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x000000008019f0a0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000801ab3f0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000801b7740 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000801c3a90 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000801cfde0 higher than p->sz=0x0000000000011000
+usertrap(): invalid va=0x00000000801dc130 higher than p->sz=0x0000000000011000
+OK
+test sbrkfail: usertrap(): kalloc() failed
+OK
+test sbrkarg: OK
+test validatetest: OK
+test stacktest: usertrap(): invalid va=0x000000000000fbb0 below the user stack sp=0x0000000000010bb0
+OK
+test opentest: OK
+test writetest: OK
+test writebig: OK
+test createtest: OK
+test openiput: OK
+test exitiput: OK
+test iput: OK
+test mem: usertrap(): kalloc() failed
+OK
+test pipe1: OK
+test preempt: kill... wait... OK
+test exitwait: OK
+test rmdot: OK
+test fourteen: OK
+test bigfile: OK
+test dirfile: OK
+test iref: OK
+test forktest: OK
+test bigdir: OK
+usertrap(): kalloc() failed
+ALL TESTS PASSED
+$ qemu-system-riscv64: terminating on signal 15 from pid 104350 (make)
